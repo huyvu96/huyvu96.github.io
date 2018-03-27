@@ -31,7 +31,7 @@ function playStream(idVideoTag, stream){
 }
 //openStream().then(stream => playStream('localStream', stream));
 
-const peer = new Peer({key: 's2pkk3weug0evcxr'});
+const peer = new Peer({key: 'peerjs', host: 'https://videocallvu96.herokuapp.com/', secure: true, port: 443});
 
 peer.on('open', id => {
     $('#my-peer').append(id);
