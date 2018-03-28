@@ -10,6 +10,7 @@ $.ajax({
     ident: "huyvu0505",
     secret: "9a7cf394-328a-11e8-aebf-56e9e468e26d",
     domain: "huyvu96.github.io",
+    channel:"VideoCall",
     application: "default",
     room: "default",
     secure: 1
