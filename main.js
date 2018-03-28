@@ -21,7 +21,7 @@ socket.on('DANG-KY-THAT-BAI', ()=> alert('UserNamd da duoc dang ky'))
 
 
 function openStream() {
-    const config = { audio: false, video: true };
+    const config = { audio: true, video: true };
     return navigator.mediaDevices.getUserMedia(config);
 }
 function playStream(idVideoTag, stream){
